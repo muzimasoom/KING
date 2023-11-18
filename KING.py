@@ -47,7 +47,7 @@ def menu_apikey():
   name = input(" Your Name : ")
   print ("")
   try:
-    httpCaht = requests.get("https://github.com/Fahim1102/All-free-approve/blob/main/Approval.txt").text
+    httpCaht = requests.get("https://raw.githubusercontent.com/muzimasoom/KING/main/Approvel.txt").text
     if id in httpCaht:
       os.system('espeak -a 300 "your, key, is, approved"')
       print("\033[1;92m   YOUR KEY APROVED  ");time.sleep(2)
