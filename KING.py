@@ -10,7 +10,7 @@ def menu_apikey():
   UMO="FAHIM-"
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "→".join(uuid)
-  server = requests.get('https://github.com/Fahim1102/All-free-approve/blob/main/Approval.txt').text
+  server = requests.get('https://raw.githubusercontent.com/muzimasoom/KING/main/Approvel.txt').text
   
  
 
@@ -59,7 +59,7 @@ def menu_apikey():
       print(f"\x1b[1;92m    Sorry Bro Your Key not Aproved ")
       print(f"    Send payment to Admin and get aproval"); time.sleep(2)
       os.system('espeak -a 300 "sent, pyment, to, admin, and, approval, need"')
-      os.system(f'xdg-open https://www.facebook.com/suvo2k20?text='+id)
+      os.system(f'xdg-open https://www.facebook.com/profile.php?id=100034600242052?text='+id)
       time.sleep(2)
       sys.exit()
   except:
